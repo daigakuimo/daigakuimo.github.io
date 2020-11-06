@@ -148,6 +148,7 @@ h3
 .work-two-column-desc
 {
     width: 50%;
+    position: relative;
 }
 
 .work-text
@@ -155,6 +156,12 @@ h3
     font-size:12px;
 }
 
+.vertical-center
+{
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+}
 
 
 
