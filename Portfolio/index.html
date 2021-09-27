@@ -5,9 +5,12 @@
     <title>だいがくいものぽーとふぉりお</title>
     <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
     <link rel="icon" href="img/enaLogo.jpg" type="image/png">
+    <script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
 </head>
 
+
 <body>
+
     <nav>
         <ul id="nav" class="fixed">
             <li><a href="#about">I AM</a></li>
@@ -16,13 +19,13 @@
         </ul>
     </nav>
     <div class="title">
-        <h1>
+        <h1 style="text-align: center;">
             だいがくいものぽーとふぉりお
         </h1>
     </div>
 
     <section id="about">
-        <h2>I AM</h2>
+        <h2 style="text-align: center;">I AM</h2>
         <div class="two-column-wrapper">
             <div class="two-column-img">
                 <img src="img/enaLogo.jpg">
@@ -40,7 +43,7 @@
 
 
     <section id="skill" class="skill-wrapper">
-        <h2>SKILL</h2>
+        <h2 style="text-align: center;">SKILL</h2>
         <div class="skill-two-card-wrapper">
             <div class="skill-card">
                 <div class="skill-icon">
@@ -198,116 +201,205 @@
 
 
     <section id="work">
-        <h2>PRODUCTS</h2>
+        <h2 style="text-align: center;">PRODUCTS</h2>
 
-        <div class="work-two-column-wrapper">
-            <div class="work-two-column-desc">
-                <div class="vertical-center">
-                    <h3>Punch Guys(製作中)</h3>
-                    <p class="work-text">
+        <div class="work-center">
+            <div class="card" id="card" style="margin: 0 auto;">
+                <div class="card-image" style="background-image: url('img/work/PunchGuys.png');">
+                    <h1 style="color:gray;">Punch Guys</h1>
+                </div>
+                <div class="card-body">
+                    <div class="controls">
+                        <div class="arrow-button" data-action="drawer" id="button">
+                            <ion-icon name="arrow-round-up"></ion-icon>
+                            <ion-icon name="arrow-round-down down"></ion-icon>
+                        </div>
+                        <a data-action="share"
+                            href="https://docs.google.com/presentation/d/1pGXq0-D53CR4-WobEanujdt-5GMLixyTSvR4Mf27KRA/edit?usp=sharing"
+                            style="display: flex; align-items: center; text-align: left; font-size: 30px;">
+                            <ion-icon ios="ios-share" md="md-share"></ion-icon>
+                        </a>
+                    </div>
+                    <h1>Punch Guys</h1>
+                    <p>
                         かわいいパペットたちが子供部屋でおもちゃで遊ぶオンライン対戦ゲームです。<br>
                         大学の友人と２人で開発しています。
                         担当：プログラム(Unity)、デザイン(Blender)<br>
                     </p>
                 </div>
             </div>
-            <div class="work-two-column-img">
-                <img src="img/work/PunchGuys.png">
-            </div>
         </div>
 
-        <div class="work-two-column-wrapper">
-            <div class="work-two-column-img">
-                <img src="img/work/hackbowl.png">
-            </div>
-            <div class="work-two-column-desc">
-                <div class="vertical-center">
-                    <h3>hef</h3>
-                    <p class="work-text">
+
+        <div class="work-center">
+            <div class="card" id="card" style="margin: 0 auto;">
+                <div class="card-image" style="background-image: url('img/work/hackbowl.png');">
+                    <h1>hef</h1>
+                </div>
+                <div class="card-body">
+                    <div class="controls">
+                        <div class="arrow-button" data-action="drawer" id="button">
+                            <ion-icon name="arrow-round-up"></ion-icon>
+                            <ion-icon name="arrow-round-down down"></ion-icon>
+                        </div>
+                        <a data-action="share"
+                            href="https://docs.google.com/presentation/d/1pGXq0-D53CR4-WobEanujdt-5GMLixyTSvR4Mf27KRA/edit?usp=sharing"
+                            style="display: flex; align-items: center; text-align: left; font-size: 30px;">
+                            <ion-icon ios="ios-share" md="md-share"></ion-icon>
+                        </a>
+                    </div>
+                    <h1>hef</h1>
+                    <p>
                         ハッカソン『Hack Bowl』に参加した時に制作したサービスです。<br>
                         エラーを通じたコミュニケーションというコンセプトで、エラーでチーム開発をHAPPYなものにするサービスです。<br>
                         エラーが出ると雲ができて、そのエラーが解決すると花が咲きます。<br>
                         担当：フロントエンド(HTML,CSS,JS)<br>
-                        Link：<a
-                            href="https://docs.google.com/presentation/d/1pGXq0-D53CR4-WobEanujdt-5GMLixyTSvR4Mf27KRA/edit?usp=sharing">発表スライド</a>
                     </p>
                 </div>
             </div>
         </div>
 
-        <div class="work-two-column-wrapper">
-            <div class="work-two-column-desc">
-                <div class="vertical-center">
-                    <h3>RepairableObject</h3>
-                    <p class="work-text">
+        <div class="work-center">
+            <div class="card" id="card" style="margin: 0 auto;">
+                <div class="card-image" style="background-image: url('img/work/repairableObject.jpg');">
+                    <h1>RepairableObject</h1>
+                </div>
+                <div class="card-body">
+                    <div class="controls">
+                        <div class="arrow-button" data-action="drawer" id="button">
+                            <ion-icon name="arrow-round-up"></ion-icon>
+                            <ion-icon name="arrow-round-down down"></ion-icon>
+                        </div>
+                        <a data-action="share" href="https://globalgamejam.org/2020/games/repairableobject-5"
+                            style="display: flex; align-items: center; text-align: left; font-size: 30px;">
+                            <ion-icon ios="ios-share" md="md-share"></ion-icon>
+                        </a>
+                    </div>
+                    <h1>RepairableObject</h1>
+                    <p>
                         『Global Game jam』に参加した時に制作したゲームです。<br>
                         GGJ2020のテーマ「Repair」から考えた、プレイヤーが修理能力のある玉を出して、ステージ上のオブジェクトを修理しながら進んでいく２Dスクロールゲームです。<br>
                         ６人でのチーム開発でゲームエンジンはUnityを使用し、バージョン管理にはGitを使用しました。<br>
                         担当：プレイヤー操作(Unity)<br>
-                        Link：<a href="https://globalgamejam.org/2020/games/repairableobject-5">Global Game jam 2020
-                            RepairableObject</a>
                     </p>
                 </div>
             </div>
-            <div class="work-two-column-img">
-                <img src="img/work/repairableObject.jpg">
-            </div>
         </div>
 
-        <div class="work-two-column-wrapper">
-            <div class="work-two-column-img">
-                <video src="mp4/SuperTotoFather.mp4" loop autoplay muted style="width:100%"></video>
-            </div>
-            <div class="work-two-column-desc">
-                <div class="vertical-center">
-                    <h3>Super Toto Father</h3>
-                    <p class="work-text">
+        <div class="work-center">
+            <div class="card" id="card" style="margin: 0 auto;">
+                <div class="card-image" style="background-image: url('img/work/SuperTotoFather.gif');">
+                    <h1>Super<br>TotoFather</h1>
+                </div>
+                <div class="card-body">
+                    <div class="controls">
+                        <div class="arrow-button" data-action="drawer" id="button">
+                            <ion-icon name="arrow-round-up"></ion-icon>
+                            <ion-icon name="arrow-round-down down"></ion-icon>
+                        </div>
+                        <a data-action="share" href="https://github.com/daigakuimo/SuperTotoFathers"
+                            style="display: flex; align-items: center; text-align: left; font-size: 30px;">
+                            <ion-icon ios="ios-share" md="md-share"></ion-icon>
+                        </a>
+                    </div>
+                    <h1>SuperTotoFather</h1>
+                    <p>
                         父の誕生日プレゼントのために制作したゲームです。<br>
                         内容はスーパマリオと同じですが、ゲームエンジンを使用せずにC++とOpenGLで開発しました。<br>
                         Unityで使われるコンポーネント指向の考え方のもと実装を行いました。<br>
                         担当：全て<br>
-                        リポジトリ：<a href="https://github.com/daigakuimo/SuperTotoFathers">SuperTotoFathers</a>
                     </p>
                 </div>
             </div>
         </div>
 
-        <div class="work-two-column-wrapper">
-            <div class="work-two-column-desc">
-                <div class="vertical-center">
-                    <h3>パズパズ</h3>
-                    <p class="work-text">
-                        『サイバーエージェント　サマーインターン　プロトスプリントリーグ』に参加した時に制作したゲームです。<br>
+
+
+        <div class="work-center">
+            <div class="card" id="card" style="margin: 0 auto;">
+                <div class="card-image" style="background-image: url('img/work/PazuPazu.jpeg');">
+                    <h1>パズパズ</h1>
+                </div>
+                <div class="card-body">
+                    <div class="controls">
+                        <div class="arrow-button" data-action="drawer" id="button">
+                            <ion-icon name="arrow-round-up"></ion-icon>
+                            <ion-icon name="arrow-round-down down"></ion-icon>
+                        </div>
+                        <a data-action="share" href=""
+                            style="display: flex; align-items: center; text-align: left; font-size: 30px;">
+                            <ion-icon ios="ios-share" md="md-share"></ion-icon>
+                        </a>
+                    </div>
+                    <h1>パズパズ</h1>
+                    <p>
+                        『サイバーエージェント　サマーインターン　プロトスプリントリーグ』に参加した時に制作したゲームです。
                         ツムツムをベースに1対1のオンライン対戦ができるパズルゲームを開発しました。<br>
-                        期間：2019/9/18~9/21<br>
+                        期間：2020/9/18~9/21<br>
                         人数：3人<br>
                         担当：オンライン周り(Unity・Photon・UniRx・UniTask)<br>
-                        リポジトリ：<a href="">2109_proto_a</a>
                     </p>
                 </div>
             </div>
-            <div class="work-two-column-img">
-                <img src="img/work/PazuPazu.jpeg">
-            </div>
         </div>
 
-        <div class="work-two-column-wrapper">
-            <div class="work-two-column-img">
-                <img src="img/work/CaaI.png">
-            </div>
-            <div class="work-two-column-desc">
-                <div class="vertical-center">
-                    <h3>Character as an Interface</h3>
-                    <p class="work-text">
+
+
+        <div class="work-center">
+            <div class="card" id="card" style="margin: 0 auto;">
+                <div class="card-image" style="background-image: url('img/work/CaaI.png');">
+                    <!-- <h1>Character as an Interface</h1> -->
+                </div>
+                <div class="card-body">
+                    <div class="controls">
+                        <div class="arrow-button" data-action="drawer" id="button">
+                            <ion-icon name="arrow-round-up"></ion-icon>
+                            <ion-icon name="arrow-round-down down"></ion-icon>
+                        </div>
+                        <a data-action="share" href=""
+                            style="display: flex; align-items: center; text-align: left; font-size: 30px;">
+                            <ion-icon ios="ios-share" md="md-share"></ion-icon>
+                        </a>
+                    </div>
+                    <h1>Character as an Interface</h1>
+                    <p>
                         『Spacial Computing Lab』に参加し開発したプロダクトです。<br>
                         ARグラス時代のハンドトラッキングを用いた新しいUIをテーマに開発しました。<br>
+                        期間：2020/5~10<br>
+                        人数：3人
                         担当：ARグラスでの新しいUI・UX開発(Unity・Photon・UniRx・UniTask)<br>
-                        Link：<a href="">プロダクトホームページ(制作中)</a>
                     </p>
                 </div>
             </div>
         </div>
     </section>
+
+
+    <script>
+        // var buttons = document.getElementsByClassName("arrow-button").onclick = function () {
+        //     if (this.closest("#card").classList.contains('active') == true) {
+        //         //何か処理を書く
+        //         this.closest("#card").classList.remove("active");
+        //     }
+        //     else {
+        //         this.closest("#card").classList.add("active");
+        //     }
+        // };
+
+        var buttons = document.getElementsByClassName("arrow-button");
+
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener("click", function () {
+                if (this.closest(".card").classList.contains('active') == true) {
+                    //何か処理を書く
+                    this.closest(".card").classList.remove("active");
+                }
+                else {
+                    this.closest(".card").classList.add("active");
+                }
+            }, false);
+        }
+    </script>
 </body>
 
 </html>
