@@ -412,3 +412,55 @@ body {
     font-size: 30px; 
     text-align: left;
 }
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 auto;
+  width: 80%;
+}
+
+table tr{
+  border-bottom: solid 1px #eee;
+  cursor: pointer;
+}
+
+table tr:hover{
+  background-color: #d4f0fd;
+}
+
+table th,table td{
+  text-align: center;
+  width: 25%;
+  padding: 15px 0;
+}
+
+table td.icon{
+  background-size: 60px;
+  background-position: left 5px center;
+  background-repeat: no-repeat;
+  padding-left: px;
+}
+
+table td.icon.Donuts{
+  background-image: url(../img/Career/LogoDonuts.png)
+}
+
+table td.icon.imacreate{
+  background-image: url(../img/Career/LogoImacreate.jpg)
+}
+
+table td.icon.DeNA{
+  background-image: url(../img/Career/DeNA.png)
+}
+
+table td.icon.Cyber{
+  background-image: url(../img/Career/Cyber.png)
+}
+
+table td.icon.CharacterBank{
+  background-image: url(../img/Career/CharacterBank.jpeg)
+}
+table td.icon.Capcom{
+  background-image: url(../img/Career/Capcom.png)
+}
